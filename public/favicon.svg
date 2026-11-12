@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Monarch">
+  <rect width="32" height="32" rx="6" fill="#0b0a09"/>
+  <path fill="#d4b36a" d="M5 23V13l5.2 4.2L16 7l5.8 10.2L27 13v10H5z"/>
+  <rect x="5" y="22.2" width="22" height="2.4" fill="#f3ead7"/>
+  <rect x="5" y="25.2" width="10.4" height="2.2" fill="#8fbf4a"/>
+  <rect x="16.6" y="25.2" width="10.4" height="2.2" fill="#d15a4a"/>
+</svg>

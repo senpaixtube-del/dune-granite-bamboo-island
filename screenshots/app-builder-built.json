@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Monarch",
+      "hasCanvas": false,
+      "bodyTextLen": 184,
+      "bodyTextHash": "0b74b5299bcc880a24a15bd783a93fd71bef3088ea4d996e18a4e0da2a9f4743",
+      "bodyTextPrefix": "DOTA 2 MONARCH شماره مچ را بده. خلاصهٔ بازی، برتری گلد، و هر ده ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Monarch",
+      "hasCanvas": false,
+      "bodyTextLen": 184,
+      "bodyTextHash": "0b74b5299bcc880a24a15bd783a93fd71bef3088ea4d996e18a4e0da2a9f4743",
+      "bodyTextPrefix": "DOTA 2 MONARCH شماره مچ را بده. خلاصهٔ بازی، برتری گلد، و هر ده ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

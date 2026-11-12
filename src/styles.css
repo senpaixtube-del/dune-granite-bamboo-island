@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Vazirmatn:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0b0a09;
+  --color-surface: #141210;
+  --color-surface-2: #1c1914;
+  --color-fg: #f3ead7;
+  --color-muted: #9a917f;
+  --color-line: #3a3326;
+  --color-gold: #d4b36a;
+  --color-gold-dim: #2a2314;
+  --color-radiant: #8fbf4a;
+  --color-radiant-dim: #1a2610;
+  --color-dire: #d15a4a;
+  --color-dire-dim: #2a1412;
+  --font-sans: "Vazirmatn", system-ui, sans-serif;
+  --font-display: "Cinzel", "Times New Roman", serif;
+  --radius: 0.125rem;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  html,
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+  }
+  body {
+    background-image: linear-gradient(180deg, color-mix(in srgb, var(--color-gold) 10%, transparent), transparent 220px);
+    min-height: 100vh;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 2px;
+  }
+  .num {
+    font-family: var(--font-display);
+    font-variant-numeric: tabular-nums;
+    direction: ltr;
+    unicode-bidi: isolate;
+  }
+  .plate {
+    background: var(--color-surface);
+    border: 1px solid var(--color-line);
+    box-shadow: inset 0 1px 0 color-mix(in srgb, var(--color-gold) 28%, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
